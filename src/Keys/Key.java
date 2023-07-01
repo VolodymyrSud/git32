@@ -1,3 +1,5 @@
+package Keys;
+
 public class Key {
 
     public String decode(String s){

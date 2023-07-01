@@ -4,10 +4,10 @@ public class CeaseCypher {
 
     public void decode(String fileName) {
 
-//        HashMap<String,Key> stringKeyHashMap = new HashMap<>();
-//        stringKeyHashMap.put("$", new Key());
-//        stringKeyHashMap.put("$$", new Key());
-//        stringKeyHashMap.put("$$$", new Key());
+//        HashMap<String,Keys.Key> stringKeyHashMap = new HashMap<>();
+//        stringKeyHashMap.put("$", new Keys.Key());
+//        stringKeyHashMap.put("$$", new Keys.Key());
+//        stringKeyHashMap.put("$$$", new Keys.Key());
 //
 //        return key.decode(value);
     }
