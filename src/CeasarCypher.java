@@ -1,8 +1,17 @@
-import java.util.HashMap;
+import Keys.Key;
 
-public class CeaseCypher {
+import java.io.File;
 
-    public void decode(String fileName) {
+public class CeasarCypher {
+
+
+
+    public void encode(String fileName, Key key) {
+        key.encode(new File(fileName));
+
+    }
+    public void decode(String fileName, Key key) {
+        key.decode(new File(fileName));
 
 //        HashMap<String,Keys.Key> stringKeyHashMap = new HashMap<>();
 //        stringKeyHashMap.put("$", new Keys.Key());
@@ -10,9 +19,5 @@ public class CeaseCypher {
 //        stringKeyHashMap.put("$$$", new Keys.Key());
 //
 //        return key.decode(value);
-    }
-
-    public void encode(String fileName) {
-
     }
 }
